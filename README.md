@@ -113,3 +113,7 @@ sudo reboot
 ## Proper upstream fix
 
 The real fix would be a quirk in the kernel's Realtek driver (`sound/hda/codecs/realtek/alc269.c`, previously `sound/pci/hda/patch_realtek.c`) for subsystem `0x1e50:0x7036` that applies the `0x1b` pin config automatically. Until that exists, this override does the same job.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
